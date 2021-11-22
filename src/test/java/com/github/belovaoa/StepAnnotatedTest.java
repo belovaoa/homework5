@@ -18,6 +18,5 @@ public class StepAnnotatedTest {
         steps.goToRepository(REPOSITORY);
         steps.openIssueTab();
         steps.shouldSeeIssueWithNumber(ISSUE_NUMBER);
-
     }
 }
